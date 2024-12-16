@@ -1,3 +1,6 @@
+resolve(process.cwd(), 'fonts', 'fonts.conf')
+resolve(process.cwd(), 'fonts', 'blinkmacsystemfont-regular.ttf')
+
 import { NextRequest, NextResponse } from 'next/server'
 import sharp from 'sharp'
 
