@@ -1,8 +1,9 @@
-resolve(process.cwd(), 'fonts', 'fonts.conf')
-resolve(process.cwd(), 'fonts', 'blinkmacsystemfont-regular.ttf')
-
+import { resolve } from 'path'
 import { NextRequest, NextResponse } from 'next/server'
 import sharp from 'sharp'
+
+resolve(process.cwd(), 'fonts', 'fonts.conf')
+resolve(process.cwd(), 'fonts', 'blinkmacsystemfont-regular.ttf')
 
 export async function POST(request: NextRequest) {
   try {
